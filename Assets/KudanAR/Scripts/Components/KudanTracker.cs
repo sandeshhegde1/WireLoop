@@ -742,9 +742,9 @@ namespace Kudan.AR
 				GUILayout.BeginVertical("box");
 
 				#if UNITY_EDITOR
-				GUILayout.Label("KUDAN AR", UnityEditor.EditorStyles.boldLabel);
+				GUILayout.Label("WireLoop AR", UnityEditor.EditorStyles.boldLabel);
 				#else
-				GUILayout.Label("KUDAN AR");
+				GUILayout.Label("WireLoop AR");
 				#endif
 
 				// Tracking status
@@ -760,10 +760,16 @@ namespace Kudan.AR
 				}
 				GUI.color = Color.white;
 
+				/*Edited by Sandesh HEGDE to remove the GUI 
+				 * /
+
+
 				// Screen resolution
-				GUILayout.Label("Screen: " + Screen.width + "x" + Screen.height);
+				//GUILayout.Label("Screen: " + Screen.width + "x" + Screen.height);
 
 				// Frame rates
+
+				/*
 				if (_trackerPlugin != null)
 				{
 					GUILayout.Label("Camera rate:  " + _trackerPlugin.CameraFrameRate.ToString("F2") + "hz");
@@ -771,12 +777,14 @@ namespace Kudan.AR
 					GUILayout.Label("App rate: " + _trackerPlugin.AppFrameRate.ToString("F2") + "hz");
 				}
 
+				*/
+
 				if (_trackerPlugin != null && _trackerPlugin.IsTrackingRunning())
 				{
 					// Texture image and resolution
 					if (_currentTrackingMethod != null)
 					{
-						GUILayout.Label("Method: " + _currentTrackingMethod.Name);
+						//GUILayout.Label("Method: " + _currentTrackingMethod.Name);
 						_currentTrackingMethod.DebugGUI(_debugGUIScale);
 					}
 				}
