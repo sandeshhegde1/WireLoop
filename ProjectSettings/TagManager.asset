@@ -7,6 +7,8 @@ TagManager:
   - Markerless
   - Marker
   - Wire
+  - EndCube
+  - StartCube
   layers:
   - Default
   - TransparentFX

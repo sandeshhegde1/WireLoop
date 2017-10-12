@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene_/KudanSample 1.unity
+    guid: 8cb4a5ad9f465ee48b8ebdf3880b015d

@@ -9,7 +9,8 @@ public class CollisionScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		scoreText.text = "No collision";
+		// scoreText.text = "No collision";
+		scoreText.text = "Start from the Start point!";
 	}
 
 
@@ -18,6 +19,22 @@ public class CollisionScript : MonoBehaviour {
 
 			scoreText.text = "Collision Detected";
 			Handheld.Vibrate ();
+
+		}
+
+		if (other.gameObject.CompareTag ("StartCube")) {
+
+			scoreText.text = "The Game was Started!";
+			Handheld.Vibrate ();
+
+
+		}
+
+		if (other.gameObject.CompareTag ("EndCube")) {
+
+			scoreText.text = "Good Job!";
+			Handheld.Vibrate ();
+
 
 		}
 

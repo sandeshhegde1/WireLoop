@@ -1,4 +1,4 @@
-Android
+iOS
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9f07aaefd0255462bb6e4f9e5da6b2d4 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -143,6 +143,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 87d3bd23c94e22073979603fab4d49c5 Assembly-CSharp.dll:Kudan.AR.MarkerEvents
+96289e77c480ed749ecbe872fec8e021 Assembly-CSharp.dll:.SimpleHelvetica
 dd9ce41bb6365b5a3389c7996c38da0b Assembly-CSharp.dll:Kudan.AR.MarkerTransformDriver
 ba1df6d74014d7c80efbe7170d67c6c1 Assembly-CSharp.dll:Kudan.AR.Samples.SampleScripting
 02fa9d2c5a7ec5331d88fb55c1bf881b Assembly-CSharp.dll:Kudan.AR.TrackingMethodMarker
