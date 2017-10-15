@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class CollisionScript : MonoBehaviour {
 
 	public Text scoreText;
-	public Text healthText;
 	public Text starText;
 	private int count;
 	private int starsCount;
@@ -16,11 +15,14 @@ public class CollisionScript : MonoBehaviour {
 	void Start () {
 		// scoreText.text = "No collision";
 		scoreText.text = "Start from the Start point!";
-		healthText.text = "Heart * Three";
+		//healthText.text = "Heart * Three";
 		starText.text = "Stars : 0";
 		count = 3;
 		starsCount = 0;
 		GameObject.FindGameObjectWithTag("Wire").SetActive(true);
+		GameObject.FindGameObjectWithTag("Health1").SetActive(true);
+		GameObject.FindGameObjectWithTag("Health2").SetActive(true);
+		GameObject.FindGameObjectWithTag("Health3").SetActive(true);
 		stars = GameObject.FindGameObjectsWithTag("Star");
 		foreach (GameObject star in stars)
 		{
@@ -37,13 +39,12 @@ public class CollisionScript : MonoBehaviour {
 			count--;
 			switch(count) {
 			case 2  :
-				healthText.text = "Health * Two";
+				GameObject.FindGameObjectWithTag("Health3").SetActive(false);
 				break; /* optional */
 			case 1 :
-				healthText.text = "Health * One";
+				GameObject.FindGameObjectWithTag("Health2").SetActive(false);
 				break; /* optional */
 			case 0 :
-				healthText.text = "You die";
 				scoreText.text = "Game over";
 				GameObject.FindGameObjectWithTag("Wire").SetActive(false);
 				stars = GameObject.FindGameObjectsWithTag("Star");
@@ -51,6 +52,7 @@ public class CollisionScript : MonoBehaviour {
 				{
 					star.SetActive(false);
 				}
+				GameObject.FindGameObjectWithTag("Health1").SetActive(false);
 				break; /* optional */
 			}
 		}
@@ -58,6 +60,7 @@ public class CollisionScript : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Star")) {
 			starsCount++;
 			starText.text = "Stars : " + starsCount;
+			other.gameObject.SetActive (false);
 		}
 
 		if (other.gameObject.CompareTag ("StartCube")) {
