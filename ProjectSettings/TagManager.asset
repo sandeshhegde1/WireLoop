@@ -9,6 +9,7 @@ TagManager:
   - Wire
   - EndCube
   - StartCube
+  - Star
   layers:
   - Default
   - TransparentFX
