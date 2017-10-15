@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wireloop_eric", "Assembly-CSharp.csproj", "{988444B9-D117-9CC7-4505-CF50BAB9477F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wireloop_eric", "Assembly-CSharp-Editor.csproj", "{01EA089A-A416-FDB3-DD13-C92B0AA54EA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{988444B9-D117-9CC7-4505-CF50BAB9477F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988444B9-D117-9CC7-4505-CF50BAB9477F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988444B9-D117-9CC7-4505-CF50BAB9477F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988444B9-D117-9CC7-4505-CF50BAB9477F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EA089A-A416-FDB3-DD13-C92B0AA54EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EA089A-A416-FDB3-DD13-C92B0AA54EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EA089A-A416-FDB3-DD13-C92B0AA54EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EA089A-A416-FDB3-DD13-C92B0AA54EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

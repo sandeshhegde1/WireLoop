@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Markerless
-  - Marker
-  - Wire
-  - EndCube
-  - StartCube
+  tags: []
   layers:
   - Default
   - TransparentFX
