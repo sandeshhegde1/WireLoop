@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class CollisionScript : MonoBehaviour {
 
-	public Text scoreText;
+	public Text collisionText;
+	public Text youWinText;
 	public Texture starFillTexture;
 	private int healthcount;
 	private int starsCount;
@@ -16,7 +17,8 @@ public class CollisionScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-		scoreText.text = "";
+		collisionText.text = "";
+		youWinText.text = "";
 		healthcount = 3;
 		starsCount = 0;
 		GameObject.FindGameObjectWithTag("Wire").SetActive(true);
@@ -31,7 +33,7 @@ public class CollisionScript : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag ("Wire")) {
 
-			scoreText.text = "Collision";
+			collisionText.text = "Collision";
 			Handheld.Vibrate ();
 			healthcount--;
 			switch(healthcount) {
@@ -41,9 +43,10 @@ public class CollisionScript : MonoBehaviour {
 			case 1 :
 				GameObject.FindGameObjectWithTag("Health2").SetActive(false);
 				break; /* optional */
-			case 0 :
-				GameObject.FindGameObjectWithTag("Health1").SetActive(false);
-				scoreText.text = "Game over";
+			case 0:
+				GameObject.FindGameObjectWithTag ("Health1").SetActive (false);
+				collisionText.text = "";
+				youWinText.text = "You Lose";
 				break; /* optional */
 			}
 		}
@@ -70,7 +73,7 @@ public class CollisionScript : MonoBehaviour {
 
 		if (other.gameObject.CompareTag ("StartCube")) {
 
-			scoreText.text = "Begin Game";
+			collisionText.text = "Begin Game";
 			Handheld.Vibrate ();
 			other.gameObject.SetActive (false);
 
@@ -78,8 +81,10 @@ public class CollisionScript : MonoBehaviour {
 		}
 
 		if (other.gameObject.CompareTag ("EndCube")) {
-
-			scoreText.text = "You Win!";
+			
+			other.gameObject.SetActive (false);
+			youWinText.text = "You Win!";
+			collisionText.text = "";
 			Handheld.Vibrate ();
 
 
@@ -91,7 +96,7 @@ public class CollisionScript : MonoBehaviour {
 	void OnTriggerExit(Collider other){
 		if (other.gameObject.CompareTag ("Wire")) {
 
-			scoreText.text = "Going Great";
+			collisionText.text = "Going Great";
 
 		}
 

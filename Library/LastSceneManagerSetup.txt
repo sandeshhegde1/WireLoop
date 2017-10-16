@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene_/MainMenu.unity
+- path: Assets/Scene_/KudanSample 1.unity
   isLoaded: 1
   isActive: 1
