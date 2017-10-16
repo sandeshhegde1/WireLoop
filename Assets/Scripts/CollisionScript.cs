@@ -6,19 +6,18 @@ using UnityEngine.UI;
 public class CollisionScript : MonoBehaviour {
 
 	public Text scoreText;
-	public Text healthText;
-	public Text starText;
-	private int count;
+	public Texture starFillTexture;
+	private int healthcount;
 	private int starsCount;
 	private GameObject[] stars;
 
+
+
 	// Use this for initialization
 	void Start () {
-		// scoreText.text = "No collision";
+		
 		scoreText.text = "";
-		healthText.text = "Health : Three";
-		starText.text = "Stars : 0";
-		count = 3;
+		healthcount = 3;
 		starsCount = 0;
 		GameObject.FindGameObjectWithTag("Wire").SetActive(true);
 		stars = GameObject.FindGameObjectsWithTag("Star");
@@ -32,26 +31,40 @@ public class CollisionScript : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.gameObject.CompareTag ("Wire")) {
 
-			scoreText.text = "Collision Detected";
+			scoreText.text = "Collision";
 			Handheld.Vibrate ();
-			count--;
-			switch(count) {
+			healthcount--;
+			switch(healthcount) {
 			case 2  :
-				healthText.text = "Health : Two";
+				GameObject.FindGameObjectWithTag("Health3").SetActive(false);
 				break; /* optional */
 			case 1 :
-				healthText.text = "Health : One";
+				GameObject.FindGameObjectWithTag("Health2").SetActive(false);
 				break; /* optional */
 			case 0 :
-				healthText.text = "You die";
+				GameObject.FindGameObjectWithTag("Health1").SetActive(false);
 				scoreText.text = "Game over";
 				break; /* optional */
 			}
 		}
 
 		if (other.gameObject.CompareTag ("Star")) {
+
 			starsCount++;
-			starText.text = "Stars : " + starsCount;
+
+			switch(starsCount) {
+			case 1  :
+				GameObject.FindGameObjectWithTag("UiStar1").GetComponent<RawImage>().texture=(Texture) starFillTexture;
+				break; /* optional */
+			case 2 :
+				GameObject.FindGameObjectWithTag("UiStar2").GetComponent<RawImage>().texture=(Texture) starFillTexture;
+				break; /* optional */
+			case 3 :
+				GameObject.FindGameObjectWithTag("UiStar3").GetComponent<RawImage>().texture=(Texture) starFillTexture;
+				break; /* optional */
+			}
+
+			Handheld.Vibrate ();
 			other.gameObject.SetActive (false);
 		}
 
@@ -78,7 +91,7 @@ public class CollisionScript : MonoBehaviour {
 	void OnTriggerExit(Collider other){
 		if (other.gameObject.CompareTag ("Wire")) {
 
-			scoreText.text = "No collision";
+			scoreText.text = "Going Great";
 
 		}
 

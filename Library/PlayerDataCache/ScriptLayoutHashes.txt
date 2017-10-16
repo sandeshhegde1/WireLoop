@@ -118,7 +118,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 6cb01ab6d1ff1b622482ab1ec6991453 Assembly-CSharp.dll:Kudan.AR.MarkerlessTouch
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Kudan.AR.MarkerlessTransformDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActivatedScript
-bef1a5521c70c366a815ebc74bcd7b44 Assembly-CSharp.dll:.CollisionScript
+81b8bc9b8158ea46c96e8fc9018201ca Assembly-CSharp.dll:.CollisionScript
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
