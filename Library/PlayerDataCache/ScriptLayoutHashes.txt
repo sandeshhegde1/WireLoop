@@ -12,6 +12,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 5667fb372c2b292ccdec2a31aaac98fa UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 5667fb372c2b292ccdec2a31aaac98fa UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+d5d51fa23c86c116fde80c62f2019f5e Assembly-CSharp.dll:.camera_follow
 ccfc25f8736cec48b64271e8d02169ec Assembly-CSharp.dll:Kudan.AR.KudanTracker
 dbe495e67e02e58641c98effb552a5cb Assembly-CSharp.dll:.FlyBehaviour_TargetTransform
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -117,7 +118,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 6cb01ab6d1ff1b622482ab1ec6991453 Assembly-CSharp.dll:Kudan.AR.MarkerlessTouch
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Kudan.AR.MarkerlessTransformDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActivatedScript
-63670ce7512a5879e0e84edf5db9ce1a Assembly-CSharp.dll:.CollisionScript
+1447f40e35bfea568b8c4af80a75bd51 Assembly-CSharp.dll:.CollisionScript
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -146,6 +147,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 87d3bd23c94e22073979603fab4d49c5 Assembly-CSharp.dll:Kudan.AR.MarkerEvents
 96289e77c480ed749ecbe872fec8e021 Assembly-CSharp.dll:.SimpleHelvetica
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.NewBehaviourScript
 dd9ce41bb6365b5a3389c7996c38da0b Assembly-CSharp.dll:Kudan.AR.MarkerTransformDriver
 ba1df6d74014d7c80efbe7170d67c6c1 Assembly-CSharp.dll:Kudan.AR.Samples.SampleScripting
 02fa9d2c5a7ec5331d88fb55c1bf881b Assembly-CSharp.dll:Kudan.AR.TrackingMethodMarker
