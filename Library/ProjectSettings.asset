@@ -142,7 +142,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   applicationIdentifier:
     Android: eu.kudan.ar
-    iOS: com.unity3d.jsnyang199
+    iOS: com.unity3d.Qingfeng
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -370,6 +370,9 @@ PlayerSettings:
   switchUdpSendBufferSize: 9
   switchUdpReceiveBufferSize: 42
   switchSocketBufferEfficiency: 4
+  switchSocketInitializeEnabled: 1
+  switchNetworkInterfaceManagerInitializeEnabled: 1
+  switchPlayerConnectionEnabled: 1
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
