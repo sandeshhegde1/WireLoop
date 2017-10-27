@@ -117,6 +117,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 6cb01ab6d1ff1b622482ab1ec6991453 Assembly-CSharp.dll:Kudan.AR.MarkerlessTouch
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Kudan.AR.MarkerlessTransformDriver
+0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp.dll:.TransformLook
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActivatedScript
 1447f40e35bfea568b8c4af80a75bd51 Assembly-CSharp.dll:.CollisionScript
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
@@ -151,3 +152,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 dd9ce41bb6365b5a3389c7996c38da0b Assembly-CSharp.dll:Kudan.AR.MarkerTransformDriver
 ba1df6d74014d7c80efbe7170d67c6c1 Assembly-CSharp.dll:Kudan.AR.Samples.SampleScripting
 02fa9d2c5a7ec5331d88fb55c1bf881b Assembly-CSharp.dll:Kudan.AR.TrackingMethodMarker
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneChange
