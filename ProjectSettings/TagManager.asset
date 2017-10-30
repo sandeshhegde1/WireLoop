@@ -10,6 +10,13 @@ TagManager:
   - EndCube
   - StartCube
   - Star
+  - Health1
+  - Health2
+  - Health3
+  - UiStar1
+  - UiStar2
+  - UiStar3
+  - Loop
   layers:
   - Default
   - TransparentFX
