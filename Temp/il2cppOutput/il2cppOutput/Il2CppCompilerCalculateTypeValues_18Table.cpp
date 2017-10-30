@@ -19,13 +19,13 @@
 #include "object-internals.h"
 
 // System.Void
-struct Void_t1093303062;
+struct Void_t2147734021;
 
 
 
 
-#ifndef U3CMODULEU3E_T1222607850_H
-#define U3CMODULEU3E_T1222607850_H
+#ifndef U3CMODULEU3E_T2638909152_H
+#define U3CMODULEU3E_T2638909152_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -33,7 +33,7 @@ struct Void_t1093303062;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t1222607850 
+struct  U3CModuleU3E_t2638909152 
 {
 public:
 
@@ -43,7 +43,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T1222607850_H
+#endif // U3CMODULEU3E_T2638909152_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -58,8 +58,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef VALUETYPE_T2638024032_H
-#define VALUETYPE_T2638024032_H
+#ifndef VALUETYPE_T3883856060_H
+#define VALUETYPE_T3883856060_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -67,7 +67,7 @@ public:
 #endif
 
 // System.ValueType
-struct  ValueType_t2638024032  : public RuntimeObject
+struct  ValueType_t3883856060  : public RuntimeObject
 {
 public:
 
@@ -78,16 +78,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t2638024032_marshaled_pinvoke
+struct ValueType_t3883856060_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t2638024032_marshaled_com
+struct ValueType_t3883856060_marshaled_com
 {
 };
-#endif // VALUETYPE_T2638024032_H
-#ifndef U24ARRAYTYPEU3D16_T3184989316_H
-#define U24ARRAYTYPEU3D16_T3184989316_H
+#endif // VALUETYPE_T3883856060_H
+#ifndef U24ARRAYTYPEU3D16_T792530898_H
+#define U24ARRAYTYPEU3D16_T792530898_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -96,7 +96,7 @@ struct ValueType_t2638024032_marshaled_com
 
 // <PrivateImplementationDetails>/$ArrayType=16
 #pragma pack(push, tp, 1)
-struct  U24ArrayTypeU3D16_t3184989316 
+struct  U24ArrayTypeU3D16_t792530898 
 {
 public:
 	union
@@ -104,7 +104,7 @@ public:
 		struct
 		{
 		};
-		uint8_t U24ArrayTypeU3D16_t3184989316__padding[16];
+		uint8_t U24ArrayTypeU3D16_t792530898__padding[16];
 	};
 
 public:
@@ -114,7 +114,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU3D16_T3184989316_H
+#endif // U24ARRAYTYPEU3D16_T792530898_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -160,8 +160,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef OBJECT_T1867163552_H
-#define OBJECT_T1867163552_H
+#ifndef OBJECT_T541554241_H
+#define OBJECT_T541554241_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -169,14 +169,14 @@ public:
 #endif
 
 // UnityEngine.Object
-struct  Object_t1867163552  : public RuntimeObject
+struct  Object_t541554241  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	IntPtr_t ___m_CachedPtr_0;
 
 public:
-	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t1867163552, ___m_CachedPtr_0)); }
+	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t541554241, ___m_CachedPtr_0)); }
 	inline IntPtr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
 	inline IntPtr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
 	inline void set_m_CachedPtr_0(IntPtr_t value)
@@ -185,14 +185,14 @@ public:
 	}
 };
 
-struct Object_t1867163552_StaticFields
+struct Object_t541554241_StaticFields
 {
 public:
 	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 
 public:
-	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t1867163552_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
+	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t541554241_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
 	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
@@ -205,18 +205,18 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_t1867163552_marshaled_pinvoke
+struct Object_t541554241_marshaled_pinvoke
 {
 	intptr_t ___m_CachedPtr_0;
 };
 // Native definition for COM marshalling of UnityEngine.Object
-struct Object_t1867163552_marshaled_com
+struct Object_t541554241_marshaled_com
 {
 	intptr_t ___m_CachedPtr_0;
 };
-#endif // OBJECT_T1867163552_H
-#ifndef COMPONENT_T2581524668_H
-#define COMPONENT_T2581524668_H
+#endif // OBJECT_T541554241_H
+#ifndef COMPONENT_T2741610515_H
+#define COMPONENT_T2741610515_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -224,7 +224,7 @@ struct Object_t1867163552_marshaled_com
 #endif
 
 // UnityEngine.Component
-struct  Component_t2581524668  : public Object_t1867163552
+struct  Component_t2741610515  : public Object_t541554241
 {
 public:
 
@@ -234,9 +234,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COMPONENT_T2581524668_H
-#ifndef BEHAVIOUR_T3807479473_H
-#define BEHAVIOUR_T3807479473_H
+#endif // COMPONENT_T2741610515_H
+#ifndef BEHAVIOUR_T3531631544_H
+#define BEHAVIOUR_T3531631544_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -244,7 +244,7 @@ public:
 #endif
 
 // UnityEngine.Behaviour
-struct  Behaviour_t3807479473  : public Component_t2581524668
+struct  Behaviour_t3531631544  : public Component_t2741610515
 {
 public:
 
@@ -254,9 +254,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BEHAVIOUR_T3807479473_H
-#ifndef MONOBEHAVIOUR_T3257849754_H
-#define MONOBEHAVIOUR_T3257849754_H
+#endif // BEHAVIOUR_T3531631544_H
+#ifndef MONOBEHAVIOUR_T2922291227_H
+#define MONOBEHAVIOUR_T2922291227_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -264,7 +264,7 @@ public:
 #endif
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t3257849754  : public Behaviour_t3807479473
+struct  MonoBehaviour_t2922291227  : public Behaviour_t3531631544
 {
 public:
 
@@ -274,9 +274,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MONOBEHAVIOUR_T3257849754_H
-#ifndef NEWBEHAVIOURSCRIPT_T843766768_H
-#define NEWBEHAVIOURSCRIPT_T843766768_H
+#endif // MONOBEHAVIOUR_T2922291227_H
+#ifndef NEWBEHAVIOURSCRIPT_T2332670628_H
+#define NEWBEHAVIOURSCRIPT_T2332670628_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -284,7 +284,7 @@ public:
 #endif
 
 // NewBehaviourScript
-struct  NewBehaviourScript_t843766768  : public MonoBehaviour_t3257849754
+struct  NewBehaviourScript_t2332670628  : public MonoBehaviour_t2922291227
 {
 public:
 
@@ -294,7 +294,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NEWBEHAVIOURSCRIPT_T843766768_H
+#endif // NEWBEHAVIOURSCRIPT_T2332670628_H
 
 
 
@@ -305,9 +305,9 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1800 = { sizeof (U24ArrayTypeU3D16_t3184989316)+ sizeof (RuntimeObject), sizeof(U24ArrayTypeU3D16_t3184989316 ), 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1801 = { sizeof (U3CModuleU3E_t1222607850), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1802 = { sizeof (NewBehaviourScript_t843766768), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1800 = { sizeof (U24ArrayTypeU3D16_t792530898)+ sizeof (RuntimeObject), sizeof(U24ArrayTypeU3D16_t792530898 ), 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1801 = { sizeof (U3CModuleU3E_t2638909152), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1802 = { sizeof (NewBehaviourScript_t2332670628), -1, 0, 0 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

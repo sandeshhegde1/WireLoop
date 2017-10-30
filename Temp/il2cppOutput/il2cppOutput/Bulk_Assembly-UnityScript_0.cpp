@@ -19,21 +19,21 @@
 #include "object-internals.h"
 
 // NewBehaviourScript
-struct NewBehaviourScript_t843766768;
+struct NewBehaviourScript_t2332670628;
 // UnityEngine.MonoBehaviour
-struct MonoBehaviour_t3257849754;
+struct MonoBehaviour_t2922291227;
 // UnityEngine.AsyncOperation
-struct AsyncOperation_t855286374;
+struct AsyncOperation_t3421446696;
 // System.Char[]
-struct CharU5BU5D_t128719587;
+struct CharU5BU5D_t3844617177;
 // System.Void
-struct Void_t1093303062;
+struct Void_t2147734021;
 
 
 
 
-#ifndef U3CMODULEU3E_T1222607850_H
-#define U3CMODULEU3E_T1222607850_H
+#ifndef U3CMODULEU3E_T2638909152_H
+#define U3CMODULEU3E_T2638909152_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -41,7 +41,7 @@ struct Void_t1093303062;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t1222607850 
+struct  U3CModuleU3E_t2638909152 
 {
 public:
 
@@ -51,7 +51,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T1222607850_H
+#endif // U3CMODULEU3E_T2638909152_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -81,8 +81,8 @@ struct Il2CppArrayBounds;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEARRAY_H
-#ifndef VALUETYPE_T2638024032_H
-#define VALUETYPE_T2638024032_H
+#ifndef VALUETYPE_T3883856060_H
+#define VALUETYPE_T3883856060_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -90,7 +90,7 @@ struct Il2CppArrayBounds;
 #endif
 
 // System.ValueType
-struct  ValueType_t2638024032  : public RuntimeObject
+struct  ValueType_t3883856060  : public RuntimeObject
 {
 public:
 
@@ -101,16 +101,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t2638024032_marshaled_pinvoke
+struct ValueType_t3883856060_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t2638024032_marshaled_com
+struct ValueType_t3883856060_marshaled_com
 {
 };
-#endif // VALUETYPE_T2638024032_H
-#ifndef YIELDINSTRUCTION_T86201450_H
-#define YIELDINSTRUCTION_T86201450_H
+#endif // VALUETYPE_T3883856060_H
+#ifndef YIELDINSTRUCTION_T3772205246_H
+#define YIELDINSTRUCTION_T3772205246_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -118,7 +118,7 @@ struct ValueType_t2638024032_marshaled_com
 #endif
 
 // UnityEngine.YieldInstruction
-struct  YieldInstruction_t86201450  : public RuntimeObject
+struct  YieldInstruction_t3772205246  : public RuntimeObject
 {
 public:
 
@@ -129,16 +129,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.YieldInstruction
-struct YieldInstruction_t86201450_marshaled_pinvoke
+struct YieldInstruction_t3772205246_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of UnityEngine.YieldInstruction
-struct YieldInstruction_t86201450_marshaled_com
+struct YieldInstruction_t3772205246_marshaled_com
 {
 };
-#endif // YIELDINSTRUCTION_T86201450_H
-#ifndef VOID_T1093303062_H
-#define VOID_T1093303062_H
+#endif // YIELDINSTRUCTION_T3772205246_H
+#ifndef VOID_T2147734021_H
+#define VOID_T2147734021_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -146,7 +146,7 @@ struct YieldInstruction_t86201450_marshaled_com
 #endif
 
 // System.Void
-struct  Void_t1093303062 
+struct  Void_t2147734021 
 {
 public:
 
@@ -156,9 +156,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VOID_T1093303062_H
-#ifndef INT32_T1772529425_H
-#define INT32_T1772529425_H
+#endif // VOID_T2147734021_H
+#ifndef INT32_T3914549478_H
+#define INT32_T3914549478_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -166,14 +166,14 @@ public:
 #endif
 
 // System.Int32
-struct  Int32_t1772529425 
+struct  Int32_t3914549478 
 {
 public:
 	// System.Int32 System.Int32::m_value
 	int32_t ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t1772529425, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t3914549478, ___m_value_2)); }
 	inline int32_t get_m_value_2() const { return ___m_value_2; }
 	inline int32_t* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(int32_t value)
@@ -185,9 +185,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INT32_T1772529425_H
-#ifndef ENUM_T592684889_H
-#define ENUM_T592684889_H
+#endif // INT32_T3914549478_H
+#ifndef ENUM_T3280300719_H
+#define ENUM_T3280300719_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -195,24 +195,24 @@ public:
 #endif
 
 // System.Enum
-struct  Enum_t592684889  : public ValueType_t2638024032
+struct  Enum_t3280300719  : public ValueType_t3883856060
 {
 public:
 
 public:
 };
 
-struct Enum_t592684889_StaticFields
+struct Enum_t3280300719_StaticFields
 {
 public:
 	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t128719587* ___split_char_0;
+	CharU5BU5D_t3844617177* ___split_char_0;
 
 public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t592684889_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t128719587* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t128719587** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t128719587* value)
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t3280300719_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t3844617177* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t3844617177** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t3844617177* value)
 	{
 		___split_char_0 = value;
 		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
@@ -223,14 +223,14 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t592684889_marshaled_pinvoke
+struct Enum_t3280300719_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.Enum
-struct Enum_t592684889_marshaled_com
+struct Enum_t3280300719_marshaled_com
 {
 };
-#endif // ENUM_T592684889_H
+#endif // ENUM_T3280300719_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -276,8 +276,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef LOADSCENEMODE_T4160463506_H
-#define LOADSCENEMODE_T4160463506_H
+#ifndef LOADSCENEMODE_T1896881806_H
+#define LOADSCENEMODE_T1896881806_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -285,14 +285,14 @@ public:
 #endif
 
 // UnityEngine.SceneManagement.LoadSceneMode
-struct  LoadSceneMode_t4160463506 
+struct  LoadSceneMode_t1896881806 
 {
 public:
 	// System.Int32 UnityEngine.SceneManagement.LoadSceneMode::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LoadSceneMode_t4160463506, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LoadSceneMode_t1896881806, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -304,9 +304,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LOADSCENEMODE_T4160463506_H
-#ifndef ASYNCOPERATION_T855286374_H
-#define ASYNCOPERATION_T855286374_H
+#endif // LOADSCENEMODE_T1896881806_H
+#ifndef ASYNCOPERATION_T3421446696_H
+#define ASYNCOPERATION_T3421446696_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -314,14 +314,14 @@ public:
 #endif
 
 // UnityEngine.AsyncOperation
-struct  AsyncOperation_t855286374  : public YieldInstruction_t86201450
+struct  AsyncOperation_t3421446696  : public YieldInstruction_t3772205246
 {
 public:
 	// System.IntPtr UnityEngine.AsyncOperation::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 
 public:
-	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(AsyncOperation_t855286374, ___m_Ptr_0)); }
+	inline static int32_t get_offset_of_m_Ptr_0() { return static_cast<int32_t>(offsetof(AsyncOperation_t3421446696, ___m_Ptr_0)); }
 	inline IntPtr_t get_m_Ptr_0() const { return ___m_Ptr_0; }
 	inline IntPtr_t* get_address_of_m_Ptr_0() { return &___m_Ptr_0; }
 	inline void set_m_Ptr_0(IntPtr_t value)
@@ -334,18 +334,18 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.AsyncOperation
-struct AsyncOperation_t855286374_marshaled_pinvoke : public YieldInstruction_t86201450_marshaled_pinvoke
+struct AsyncOperation_t3421446696_marshaled_pinvoke : public YieldInstruction_t3772205246_marshaled_pinvoke
 {
 	intptr_t ___m_Ptr_0;
 };
 // Native definition for COM marshalling of UnityEngine.AsyncOperation
-struct AsyncOperation_t855286374_marshaled_com : public YieldInstruction_t86201450_marshaled_com
+struct AsyncOperation_t3421446696_marshaled_com : public YieldInstruction_t3772205246_marshaled_com
 {
 	intptr_t ___m_Ptr_0;
 };
-#endif // ASYNCOPERATION_T855286374_H
-#ifndef OBJECT_T1867163552_H
-#define OBJECT_T1867163552_H
+#endif // ASYNCOPERATION_T3421446696_H
+#ifndef OBJECT_T541554241_H
+#define OBJECT_T541554241_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -353,14 +353,14 @@ struct AsyncOperation_t855286374_marshaled_com : public YieldInstruction_t862014
 #endif
 
 // UnityEngine.Object
-struct  Object_t1867163552  : public RuntimeObject
+struct  Object_t541554241  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	IntPtr_t ___m_CachedPtr_0;
 
 public:
-	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t1867163552, ___m_CachedPtr_0)); }
+	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t541554241, ___m_CachedPtr_0)); }
 	inline IntPtr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
 	inline IntPtr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
 	inline void set_m_CachedPtr_0(IntPtr_t value)
@@ -369,14 +369,14 @@ public:
 	}
 };
 
-struct Object_t1867163552_StaticFields
+struct Object_t541554241_StaticFields
 {
 public:
 	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 
 public:
-	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t1867163552_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
+	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t541554241_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
 	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
@@ -389,18 +389,18 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_t1867163552_marshaled_pinvoke
+struct Object_t541554241_marshaled_pinvoke
 {
 	intptr_t ___m_CachedPtr_0;
 };
 // Native definition for COM marshalling of UnityEngine.Object
-struct Object_t1867163552_marshaled_com
+struct Object_t541554241_marshaled_com
 {
 	intptr_t ___m_CachedPtr_0;
 };
-#endif // OBJECT_T1867163552_H
-#ifndef COMPONENT_T2581524668_H
-#define COMPONENT_T2581524668_H
+#endif // OBJECT_T541554241_H
+#ifndef COMPONENT_T2741610515_H
+#define COMPONENT_T2741610515_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -408,7 +408,7 @@ struct Object_t1867163552_marshaled_com
 #endif
 
 // UnityEngine.Component
-struct  Component_t2581524668  : public Object_t1867163552
+struct  Component_t2741610515  : public Object_t541554241
 {
 public:
 
@@ -418,9 +418,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COMPONENT_T2581524668_H
-#ifndef BEHAVIOUR_T3807479473_H
-#define BEHAVIOUR_T3807479473_H
+#endif // COMPONENT_T2741610515_H
+#ifndef BEHAVIOUR_T3531631544_H
+#define BEHAVIOUR_T3531631544_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -428,7 +428,7 @@ public:
 #endif
 
 // UnityEngine.Behaviour
-struct  Behaviour_t3807479473  : public Component_t2581524668
+struct  Behaviour_t3531631544  : public Component_t2741610515
 {
 public:
 
@@ -438,9 +438,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BEHAVIOUR_T3807479473_H
-#ifndef MONOBEHAVIOUR_T3257849754_H
-#define MONOBEHAVIOUR_T3257849754_H
+#endif // BEHAVIOUR_T3531631544_H
+#ifndef MONOBEHAVIOUR_T2922291227_H
+#define MONOBEHAVIOUR_T2922291227_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -448,7 +448,7 @@ public:
 #endif
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t3257849754  : public Behaviour_t3807479473
+struct  MonoBehaviour_t2922291227  : public Behaviour_t3531631544
 {
 public:
 
@@ -458,9 +458,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MONOBEHAVIOUR_T3257849754_H
-#ifndef NEWBEHAVIOURSCRIPT_T843766768_H
-#define NEWBEHAVIOURSCRIPT_T843766768_H
+#endif // MONOBEHAVIOUR_T2922291227_H
+#ifndef NEWBEHAVIOURSCRIPT_T2332670628_H
+#define NEWBEHAVIOURSCRIPT_T2332670628_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -468,7 +468,7 @@ public:
 #endif
 
 // NewBehaviourScript
-struct  NewBehaviourScript_t843766768  : public MonoBehaviour_t3257849754
+struct  NewBehaviourScript_t2332670628  : public MonoBehaviour_t2922291227
 {
 public:
 
@@ -478,85 +478,85 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NEWBEHAVIOURSCRIPT_T843766768_H
+#endif // NEWBEHAVIOURSCRIPT_T2332670628_H
 
 
 
 // System.Void UnityEngine.MonoBehaviour::.ctor()
-extern "C"  void MonoBehaviour__ctor_m1104629364 (MonoBehaviour_t3257849754 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void MonoBehaviour__ctor_m2631210386 (MonoBehaviour_t2922291227 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.AsyncOperation UnityEngine.SceneManagement.SceneManager::LoadSceneAsync(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
-extern "C"  AsyncOperation_t855286374 * SceneManager_LoadSceneAsync_m2721713677 (RuntimeObject * __this /* static, unused */, int32_t p0, int32_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  AsyncOperation_t3421446696 * SceneManager_LoadSceneAsync_m1170573263 (RuntimeObject * __this /* static, unused */, int32_t p0, int32_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void NewBehaviourScript::.ctor()
-extern "C"  void NewBehaviourScript__ctor_m494810923 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript__ctor_m3542615833 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		MonoBehaviour__ctor_m1104629364(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2631210386(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::NewGame()
-extern "C"  void NewBehaviourScript_NewGame_m1194392980 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_NewGame_m669337556 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 6, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 6, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::Settings()
-extern "C"  void NewBehaviourScript_Settings_m3072169991 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_Settings_m383769371 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 2, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 2, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::About()
-extern "C"  void NewBehaviourScript_About_m4194254240 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_About_m3929222659 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 3, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 3, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::MainMenu()
-extern "C"  void NewBehaviourScript_MainMenu_m4116391605 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_MainMenu_m1994055425 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 0, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 0, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::EasyLevel()
-extern "C"  void NewBehaviourScript_EasyLevel_m1145501711 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_EasyLevel_m3218053991 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 1, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 1, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::MediumLevel()
-extern "C"  void NewBehaviourScript_MediumLevel_m1186886147 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_MediumLevel_m1399124227 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 5, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 5, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::DifficultLevel()
-extern "C"  void NewBehaviourScript_DifficultLevel_m4042565895 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_DifficultLevel_m3272086862 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
-		SceneManager_LoadSceneAsync_m2721713677(NULL /*static, unused*/, 4, 0, /*hidden argument*/NULL);
+		SceneManager_LoadSceneAsync_m1170573263(NULL /*static, unused*/, 4, 0, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::Main()
-extern "C"  void NewBehaviourScript_Main_m2297998490 (NewBehaviourScript_t843766768 * __this, const RuntimeMethod* method)
+extern "C"  void NewBehaviourScript_Main_m3841072137 (NewBehaviourScript_t2332670628 * __this, const RuntimeMethod* method)
 {
 	{
 		return;
