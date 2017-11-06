@@ -11,7 +11,7 @@ public class CollisionScript : MonoBehaviour {
 	private int healthcount;
 	private int starsCount;
 	private GameObject[] stars;
-
+	private Color distanceIndicator;
 
 
 	// Use this for initialization
@@ -86,14 +86,19 @@ public class CollisionScript : MonoBehaviour {
 			youWinText.text = "You Win!";
 			collisionText.text = "";
 			Handheld.Vibrate ();
-
-
 		}
-		if (other.gameObject.CompareTag ("Indicator")) {
-			collisionText.text = "Too Close!";
-			Handheld.Vibrate ();
-			collisionText.text = "";
+		/*
+		if (other.gameObject.CompareTag ("IndicatorYellow")) {
+			
 		}
+		*/
+		if (other.gameObject.CompareTag ("IndicatorRed")) {
+			distanceIndicator = Color.red;
+			GameObject IndicatorRed = GameObject.FindGameObjectWithTag ("DistanceIndicator");
+			IndicatorRed.GetComponent<MeshRenderer> ().material.color = distanceIndicator;
+			collisionText.text = "Too Close";
+		}
+			
 
 	}
 
@@ -104,6 +109,13 @@ public class CollisionScript : MonoBehaviour {
 			collisionText.text = "Going Great";
 
 		}
+		if (other.gameObject.CompareTag ("IndicatorRed")) {
+			distanceIndicator = Color.white;
+			GameObject IndicatorRed = GameObject.FindGameObjectWithTag ("DistanceIndicator");
+			IndicatorRed.GetComponent<MeshRenderer> ().material.color = distanceIndicator;
+			collisionText.text = "Going Great";
+		}
+
 
 	}
 }
