@@ -400,7 +400,6 @@ UnityEngine.Material::HasProperty
 UnityEngine.Material::SetPass
 UnityEngine.Material::DisableKeyword
 UnityEngine.Material::EnableKeyword
-UnityEngine.Material::INTERNAL_CALL_SetColorImpl
 UnityEngine.Material::INTERNAL_CALL_SetTextureOffsetImpl
 UnityEngine.Material::INTERNAL_CALL_SetTextureScaleImpl
 UnityEngine.Material::Internal_CreateWithMaterial

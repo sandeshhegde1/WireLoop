@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 176
   Total Field Removals = 793
-  Total Method Removals = 10753
+  Total Method Removals = 10758
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9443,7 +9443,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 47
   Total Field Removals = 57
-  Total Method Removals = 4473
+  Total Method Removals = 4478
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -12073,11 +12073,13 @@ Summary:
         INTERNAL_CALL_GetMatrixImpl(UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_GetTextureScaleAndOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         INTERNAL_CALL_GetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
+        INTERNAL_CALL_SetColorImpl(UnityEngine.Material,System.Int32,UnityEngine.Color&)
         INTERNAL_CALL_SetMatrixImpl(UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_SetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         Internal_CreateWithString(UnityEngine.Material,System.String)
         IsKeywordEnabled(System.String)
         Lerp(UnityEngine.Material,UnityEngine.Material,System.Single)
+        set_color(UnityEngine.Color)
         set_doubleSidedGI(System.Boolean)
         set_enableInstancing(System.Boolean)
         set_globalIlluminationFlags(UnityEngine.MaterialGlobalIlluminationFlags)
@@ -12089,12 +12091,15 @@ Summary:
         SetBuffer(System.Int32,UnityEngine.ComputeBuffer)
         SetBuffer(System.String,UnityEngine.ComputeBuffer)
         SetBufferImpl(System.Int32,UnityEngine.ComputeBuffer)
+        SetColor(System.Int32,UnityEngine.Color)
+        SetColor(System.String,UnityEngine.Color)
         SetColorArray(System.Int32,System.Collections.Generic.List`1<UnityEngine.Color>)
         SetColorArray(System.Int32,UnityEngine.Color[])
         SetColorArray(System.String,System.Collections.Generic.List`1<UnityEngine.Color>)
         SetColorArray(System.String,UnityEngine.Color[])
         SetColorArrayImpl(System.Int32,UnityEngine.Color[])
         SetColorArrayImplList(System.Int32,System.Object)
+        SetColorImpl(System.Int32,UnityEngine.Color)
         SetFloat(System.Int32,System.Single)
         SetFloat(System.String,System.Single)
         SetFloatArray(System.Int32,System.Collections.Generic.List`1<System.Single>)

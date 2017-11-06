@@ -1810,10 +1810,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Material_EnableKeyword();
 		Register_UnityEngine_Material_EnableKeyword();
 
-		//System.Void UnityEngine.Material::INTERNAL_CALL_SetColorImpl(UnityEngine.Material,System.Int32,UnityEngine.Color&)
-		void Register_UnityEngine_Material_INTERNAL_CALL_SetColorImpl();
-		Register_UnityEngine_Material_INTERNAL_CALL_SetColorImpl();
-
 		//System.Void UnityEngine.Material::INTERNAL_CALL_SetTextureOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)
 		void Register_UnityEngine_Material_INTERNAL_CALL_SetTextureOffsetImpl();
 		Register_UnityEngine_Material_INTERNAL_CALL_SetTextureOffsetImpl();
