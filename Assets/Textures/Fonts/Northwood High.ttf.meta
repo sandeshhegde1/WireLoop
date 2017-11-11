@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 68b4b9d6d08ad4e038cb4a10038292ff
+timeCreated: 1510011489
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Northwood High
+  fontNames:
+  - Northwood High
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

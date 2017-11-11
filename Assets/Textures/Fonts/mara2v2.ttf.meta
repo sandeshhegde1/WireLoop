@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 18d7eb86b50bd41b09deeaad100a1a13
+timeCreated: 1510011169
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Marathon II
+  fontNames:
+  - Marathon II
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

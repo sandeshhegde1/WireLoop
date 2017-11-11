@@ -4,7 +4,7 @@ import UnityEngine.SceneManagement;
 
 function NewGame() {
     //go to select level	
-	SceneManager.LoadSceneAsync(6,LoadSceneMode.Single);
+	SceneManager.LoadSceneAsync(8,LoadSceneMode.Single);
 
 }
 
@@ -17,7 +17,7 @@ function Settings() {
 function About() {
     //about scene
 	
-	SceneManager.LoadSceneAsync(3,LoadSceneMode.Single);
+	SceneManager.LoadSceneAsync(1,LoadSceneMode.Single);
 }
 function Quit() {
     //quit scene
@@ -35,21 +35,21 @@ function MainMenu() {
 function EasyLevel() {
     //Easy level scene
 	
-	SceneManager.LoadSceneAsync(1,LoadSceneMode.Single);
+	SceneManager.LoadSceneAsync(3,LoadSceneMode.Single);
 
 }
 
 function MediumLevel() {
     //main menu scene
 	
-	SceneManager.LoadSceneAsync(5,LoadSceneMode.Single);
+	SceneManager.LoadSceneAsync(4,LoadSceneMode.Single);
 
 }
 
 function DifficultLevel() {
     //main menu scene
 	
-	SceneManager.LoadSceneAsync(4,LoadSceneMode.Single);
+	SceneManager.LoadSceneAsync(5,LoadSceneMode.Single);
 
 }
 
