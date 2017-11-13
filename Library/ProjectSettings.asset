@@ -142,7 +142,7 @@ PlayerSettings:
   resolutionScalingMode: 0
   applicationIdentifier:
     Android: eu.kudan.ar
-    iOS: com.unity3d.Qingfeng
+    iOS: com.Company.Moc3Moc
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16

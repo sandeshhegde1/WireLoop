@@ -9276,9 +9276,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0f27638ffe13a94599953ccceab0cd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionText: {fileID: 728665193}
-  youWinText: {fileID: 1979595443}
   starFillTexture: {fileID: 2800000, guid: bb3964f54cea8254dadb1bf4b3ded4aa, type: 3}
+  loseImage: {fileID: 0}
+  winImage: {fileID: 0}
+  backImage: {fileID: 0}
 --- !u!64 &1151428717
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12333,7 +12334,7 @@ Prefab:
     - target: {fileID: 114000013630332012, guid: 98407ad24a6034374866d42c91b9bfe7,
         type: 2}
       propertyPath: _APIKey
-      value: xm0IxyLu5583o+l485kFgwWB8p9b8k5R35Uj/fCG0Trl2mXz7ky9XDcmylZf+czV9gVn49RyL6PzXJ2pN0pimftYf/lpYzHkkLuW87RXU0NTG1RnNafTZkJ/xCuv5LLTHFfQ0Rb22ULX/02rxJtEqTP/rv4KtJTd3/PjP3o9fzU4+i0bXE7AYp/Ec8a54e9nfM3NityV5OOR8q6RMvtFx1FYboEAbO9D/8E5l0z+E/Wx5sLoaqLh/23MTGGkwolfwkmUV+frOwtQ9HwVy0/q/RgQTzH8cmfonW49xXmWGuGn5ypqtapv4iItzjccoLhCiELzLz86m1JbyPxLOTFnaxepzV7rhqNL06CJ2vcD0ildR1XfS3EIT8Ax2fRa7VmTP3le7h/TAWW3zCWrwQo4q1VdUH583St/ePbeX1/0m6uQMgHn5JdXhgxPtEPGKGQQa/31yEwZfywF/+IktNwgVqj/L34q/2noncB7TpjqLGWvFCliSKdJDVIWTcwhZGwUdXSF3LTMmmk8lbx8egGkGxHcVP7UFAvlBbSMmzWtMLO3fkWN8JOrt5+3Q6BYNbVXi/hXPxO9bLWbHuoYlF+wwNE9fD2MzTEs94BkKczbpjwIc9zduMZA3Mdbbv4vQcUaAjJNl0LwAcqyV/2rGrQN3q2XW+3enUvm+tRopW3liLc=
+      value: sVmoznmKZ+4nFEHD6HoslwpC26PNuBZGHrikUwyon2BKSvza1yu2CqbSrae+pHPr1NHjhsf5pHQOZn8IEqXlqXFodGsrOJhxJANbMOdvnRLUi9/QWGqyRL9FViDmyohw6e5R7U4Ex8H7d7spLLvhfp5HFv56DgLr8c8sC2ipDtv9g1IjOTaY7UGxata3eulG2A/UkIdRv2NcotZXqan01xQUWFAislEwlGguParEYiwu11T4mqtU3dQBbfxpvxbczjdYz493YG3rAO2RHgT+5M5TJShJsz2irkNo71JD2Fzqf4AR2b4+7t1c55zKjegXzGS6Xa/rpNn9yiXUn7rUYIHNvN3cEQa9HsZiVxAV4vJgxFS+T/AxfWqKrEg1uj6xF5MsodZ2EkZ8mqliYIsxZqnFz+Re2HeWG8wvrEob0ZwRIO0TxppAemZc3HChTAPLcNt5gzeBk0oRP4wnrFAFFBDi8XjDocwTSVw++hWZb1qNHzt6bKLsMDRT057UVuuZB6M8f7EOQD79Oah0Vrx/3DUK6e9BEV8oGFNHtk1wyYEkg0i6RLhVSokGx//Qj36A4gCz3h1OjtfB0OuukbNq7xI1L/FcNQLmGYNGZwszARjGr9ESw1gVAkbQMxaV27uo/KoIq4+nR7RL8iT7t7NAaXCFIi24RR+7WGjTvKqWYjA=
       objectReference: {fileID: 0}
     - target: {fileID: 114000013630332012, guid: 98407ad24a6034374866d42c91b9bfe7,
         type: 2}
