@@ -9280,6 +9280,10 @@ MonoBehaviour:
   loseImage: {fileID: 0}
   winImage: {fileID: 0}
   backImage: {fileID: 0}
+  Toching_Stars: {fileID: 0}
+  Win: {fileID: 0}
+  Lose: {fileID: 0}
+  BackGroundMusic: {fileID: 0}
 --- !u!64 &1151428717
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12334,7 +12338,7 @@ Prefab:
     - target: {fileID: 114000013630332012, guid: 98407ad24a6034374866d42c91b9bfe7,
         type: 2}
       propertyPath: _APIKey
-      value: sVmoznmKZ+4nFEHD6HoslwpC26PNuBZGHrikUwyon2BKSvza1yu2CqbSrae+pHPr1NHjhsf5pHQOZn8IEqXlqXFodGsrOJhxJANbMOdvnRLUi9/QWGqyRL9FViDmyohw6e5R7U4Ex8H7d7spLLvhfp5HFv56DgLr8c8sC2ipDtv9g1IjOTaY7UGxata3eulG2A/UkIdRv2NcotZXqan01xQUWFAislEwlGguParEYiwu11T4mqtU3dQBbfxpvxbczjdYz493YG3rAO2RHgT+5M5TJShJsz2irkNo71JD2Fzqf4AR2b4+7t1c55zKjegXzGS6Xa/rpNn9yiXUn7rUYIHNvN3cEQa9HsZiVxAV4vJgxFS+T/AxfWqKrEg1uj6xF5MsodZ2EkZ8mqliYIsxZqnFz+Re2HeWG8wvrEob0ZwRIO0TxppAemZc3HChTAPLcNt5gzeBk0oRP4wnrFAFFBDi8XjDocwTSVw++hWZb1qNHzt6bKLsMDRT057UVuuZB6M8f7EOQD79Oah0Vrx/3DUK6e9BEV8oGFNHtk1wyYEkg0i6RLhVSokGx//Qj36A4gCz3h1OjtfB0OuukbNq7xI1L/FcNQLmGYNGZwszARjGr9ESw1gVAkbQMxaV27uo/KoIq4+nR7RL8iT7t7NAaXCFIi24RR+7WGjTvKqWYjA=
+      value: 'oKWMxS+qP7C+aC1X7yj3Yhg+Q/ua9+6/Ulh4i2eVYq7K1LlngGJELBHrkUOacUVOmax2Qeeq3qSr2ibNfYZkzgK28fcD6TYGo0iSqGCozHWn32Ay64VvgUfGS2qFoRxtnt6H2tHDUlyAB4Bz06EDNpyZ9DDgYuwvJilNHzu4tM31j/UL7uSpntja2N0oGu02wSyxMBoVVxYBFNYepls8CVttOvFAVw034Xa4pwatDA5OZuuXHt2CleOHJXVHOwq/Zok9N7WuduUsN9hbhX4L7O+GfK+hmx/RwC1kmg/KmUV14hJbnECgL9eRyMWirdttmu+GGVb7jHMD31Z5e3kW+tbmxCQZMVtNtPSUcyBqxmLPtcpSIcf7tzJbhzWNYubx7BYP5xbdd/WtF5k6dS4d1zWb4CkQGB4elESkf7lor+K4crreE8JtcX8iKqJJSm0QdhWGG7s0mrCA6FvBGWNsbYSLoSqTYy8LX9REDSq+7wytEKIKkpE26sVfYYh+FafFWtgArSOnKAXh8a/k8SChptygDv3w3FyG7+UZm1OgEg2CzNv5SVBMSXdoaNL5QHgI1cAYtUNXbidRoYcajXBBmjPf7djXvx1rJqFcmZlxWnJw1smWh+5ry3SYUddXDcFg0AlK3T8T5O08w7v5vXtz1fMwxa8DPPHnDrV/4U3OO7U= '
       objectReference: {fileID: 0}
     - target: {fileID: 114000013630332012, guid: 98407ad24a6034374866d42c91b9bfe7,
         type: 2}
@@ -12429,7 +12433,7 @@ Prefab:
     - target: {fileID: 114000013630332012, guid: 98407ad24a6034374866d42c91b9bfe7,
         type: 2}
       propertyPath: _EditorAPIKey
-      value: GAWAE-FBL44-AQMR7-AE8TX-BD7CQ-WGC5B-T7KPV-KZ29C-CQ7CM-ABJ6U-A3ZQ4-FUBEF-98U3S-LEHQW-G2B4
+      value: 'oKWMxS+qP7C+aC1X7yj3Yhg+Q/ua9+6/Ulh4i2eVYq7K1LlngGJELBHrkUOacUVOmax2Qeeq3qSr2ibNfYZkzgK28fcD6TYGo0iSqGCozHWn32Ay64VvgUfGS2qFoRxtnt6H2tHDUlyAB4Bz06EDNpyZ9DDgYuwvJilNHzu4tM31j/UL7uSpntja2N0oGu02wSyxMBoVVxYBFNYepls8CVttOvFAVw034Xa4pwatDA5OZuuXHt2CleOHJXVHOwq/Zok9N7WuduUsN9hbhX4L7O+GfK+hmx/RwC1kmg/KmUV14hJbnECgL9eRyMWirdttmu+GGVb7jHMD31Z5e3kW+tbmxCQZMVtNtPSUcyBqxmLPtcpSIcf7tzJbhzWNYubx7BYP5xbdd/WtF5k6dS4d1zWb4CkQGB4elESkf7lor+K4crreE8JtcX8iKqJJSm0QdhWGG7s0mrCA6FvBGWNsbYSLoSqTYy8LX9REDSq+7wytEKIKkpE26sVfYYh+FafFWtgArSOnKAXh8a/k8SChptygDv3w3FyG7+UZm1OgEg2CzNv5SVBMSXdoaNL5QHgI1cAYtUNXbidRoYcajXBBmjPf7djXvx1rJqFcmZlxWnJw1smWh+5ry3SYUddXDcFg0AlK3T8T5O08w7v5vXtz1fMwxa8DPPHnDrV/4U3OO7U= '
       objectReference: {fileID: 0}
     - target: {fileID: 480118, guid: 98407ad24a6034374866d42c91b9bfe7, type: 2}
       propertyPath: m_LocalRotation.x
@@ -12455,6 +12459,14 @@ Prefab:
         type: 2}
       propertyPath: _makePersistent
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22496998, guid: 98407ad24a6034374866d42c91b9bfe7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 356
+      objectReference: {fileID: 0}
+    - target: {fileID: 22496998, guid: 98407ad24a6034374866d42c91b9bfe7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 198
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98407ad24a6034374866d42c91b9bfe7, type: 2}
