@@ -16,6 +16,12 @@ public class MCollisionScript : MonoBehaviour {
 	[SerializeField]private GameObject backImage;
 	private bool gameBegin;
 	// Use this for initialization
+	// songs variables
+	public AudioSource Toching_Stars;
+	public AudioSource Win;
+	public AudioSource Lose;
+	public AudioSource BackGroundMusic;
+
 	void Start () {
 		//gameStatusText.text = "Please start with start point!";
 		loseImage.SetActive(false);	
@@ -44,6 +50,8 @@ public class MCollisionScript : MonoBehaviour {
 			Handheld.Vibrate ();
 			other.gameObject.SetActive (false);
 			gameBegin = true;
+			// paly the starting game song
+			BackGroundMusic.Play();
 		}
 		//If game starts
 		if (gameBegin == true) {
@@ -73,6 +81,8 @@ public class MCollisionScript : MonoBehaviour {
 					}
 					loseImage.SetActive(true);	
 					backImage.SetActive(false);
+					// paly the lose song
+					Lose.Play();
 					break; 
 				}
 			}
@@ -93,6 +103,8 @@ public class MCollisionScript : MonoBehaviour {
 				}
 				Handheld.Vibrate ();
 				other.gameObject.SetActive (false);
+				// paly the song
+				Toching_Stars.Play();
 			}
 				
 			if (other.gameObject.CompareTag ("EndCube")) {
@@ -100,6 +112,8 @@ public class MCollisionScript : MonoBehaviour {
 				winImage.SetActive(true);	
 				backImage.SetActive(false);
 				Handheld.Vibrate ();
+				// paly the win song
+				Win.Play();
 			}
 		}
 		//If game doesn't start

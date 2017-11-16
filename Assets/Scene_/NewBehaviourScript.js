@@ -19,6 +19,10 @@ function About() {
 	
 	SceneManager.LoadSceneAsync(3,LoadSceneMode.Single);
 }
+function Quit() {
+    // quit
+    Application.Quit();
+}
 
 function MainMenu() {
     //main menu scene
