@@ -30,5 +30,5 @@ EditorBuildSettings:
     path: Assets/Scene_/MovingStarsLevel.unity
     guid: 16bcde9aa1aa04a88a7c94a27f370fa7
   - enabled: 1
-    path: Assets/Scene_/intro/intro1.unity
+    path: Assets/Scene_/intro.unity
     guid: e724381f7bb624688af0b629c115bb8e

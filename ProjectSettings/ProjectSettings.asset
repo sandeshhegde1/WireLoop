@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 12
   productGUID: 5d678c6d6be1049cab55ba5f7880a631
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -141,6 +141,7 @@ PlayerSettings:
   targetPixelDensity: 0
   resolutionScalingMode: 0
   applicationIdentifier:
+    Android: eu.kudan.ar
     Standalone: com.unity3d.TaoFang
     iOS: com.Company.Moc4Moc
   buildNumber: {}
