@@ -81,6 +81,7 @@ public class CollisionScript : MonoBehaviour {
 						wire.SetActive(false);
 					}
 					loseImage.SetActive(true);
+					winImage.SetActive (false);
 					backImage.SetActive(false);
 					// paly the lose song
 					Lose.Play();
@@ -111,6 +112,11 @@ public class CollisionScript : MonoBehaviour {
 			if (other.gameObject.CompareTag ("EndCube")) {
 				other.gameObject.SetActive (false);
 				winImage.SetActive(true);
+				wires = GameObject.FindGameObjectsWithTag ("Wire");
+				foreach (GameObject wire in wires) {
+					wire.SetActive (false);
+				}
+				loseImage.SetActive (false);
 				backImage.SetActive(false);
 				Handheld.Vibrate ();
 				// paly the win song
@@ -136,22 +142,6 @@ public class CollisionScript : MonoBehaviour {
 
 
 		}
-
-
-		//If game doesn't start
-		/*
-		if (gameBegin == false) {
-			if (other.gameObject.CompareTag ("Wire")) {
-				gameStatusText.text = "Please start with start point!";
-			}
-			if (other.gameObject.CompareTag ("Star")) {
-				gameStatusText.text = "Please start with start point!";
-			}
-			if (other.gameObject.CompareTag ("EndCube")) {
-				gameStatusText.text = "Please start with start point!";
-			}
-		}
-		*/
 	} 
 	void OnTriggerExit(Collider other){
 		//When Moving up, the color should be red -> orange -> normal

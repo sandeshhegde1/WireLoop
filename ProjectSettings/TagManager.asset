@@ -19,6 +19,9 @@ TagManager:
   - Loop
   - IndicatorYellow
   - IndicatorRed
+  - loadingsign
+  - Pipe_Part2_Head
+  - Pipe_Part2_End
   layers:
   - Default
   - TransparentFX

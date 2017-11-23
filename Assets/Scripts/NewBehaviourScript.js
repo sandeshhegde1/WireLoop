@@ -53,3 +53,8 @@ function DifficultLevel() {
 
 }
 
+function Introduction() {
+
+	SceneManager.LoadSceneAsync(8, LoadSceneMode.Single);
+
+}

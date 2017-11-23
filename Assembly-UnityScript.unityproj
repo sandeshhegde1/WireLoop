@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C44DA4B8-23E1-A00B-B070-D69914A4672E}</ProjectGuid>
+    <ProjectGuid>{42925FC9-7589-B0A4-3E71-46652E5C93B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-UnityScript</AssemblyName>
@@ -53,13 +53,14 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\MovingStars.js" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.js" />
+     <Compile Include="Assets\Scripts\showhideloading.js" />
      <None Include="Assets\Simple Helvetica\readme.txt" />
      <None Include="Assets\KudanAR\Materials\Background.shader" />
      <None Include="Assets\KudanAR\Materials\ShadowCatcher.shader" />
      <None Include="Assets\KudanAR\Materials\DebugFlat.shader" />
      <None Include="Assets\KudanAR\Resources\YpCbCr.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/miemie/Downloads/WireLoop-Basir 2/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/miemie/Downloads/WireLoop-xirui1 3/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

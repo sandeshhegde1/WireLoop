@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{41D52BBD-7789-F8F4-4ABA-4CA448F7E6D5}</ProjectGuid>
+    <ProjectGuid>{6A139DA6-F0DF-2CB5-116B-8DBAEC06D7B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -79,10 +79,13 @@
      <Compile Include="Assets\Scripts\ChangeMusicVolume.cs" />
      <Compile Include="Assets\Scripts\ClickButton.cs" />
      <Compile Include="Assets\Scripts\CollisionScript.cs" />
+     <Compile Include="Assets\Scripts\HCollisionScript.cs" />
+     <Compile Include="Assets\Scripts\loadingSign.cs" />
      <Compile Include="Assets\Scripts\MCollisionScript.cs" />
      <Compile Include="Assets\Scripts\MSceneChange.cs" />
      <Compile Include="Assets\Scripts\MSelfRotate.cs" />
      <Compile Include="Assets\Scripts\MStarRotate.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\SceneChange.cs" />
      <Compile Include="Assets\Scripts\starsmoving.cs" />
      <Compile Include="Assets\Scripts\starsmoving1.cs" />
@@ -95,7 +98,7 @@
      <None Include="Assets\KudanAR\Materials\DebugFlat.shader" />
      <None Include="Assets\KudanAR\Resources\YpCbCr.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/miemie/Downloads/WireLoop-Basir 2/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/miemie/Downloads/WireLoop-xirui1 3/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

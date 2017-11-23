@@ -69,17 +69,16 @@ public class MCollisionScript : MonoBehaviour {
 				case 0:
 
 					GameObject.FindGameObjectWithTag ("Health1").SetActive (false);
-					stars = GameObject.FindGameObjectsWithTag("Star");
-					foreach (GameObject star in stars)
-					{
-						star.SetActive(false);
+					stars = GameObject.FindGameObjectsWithTag ("Star");
+					foreach (GameObject star in stars) {
+						star.SetActive (false);
 					}
-					wires = GameObject.FindGameObjectsWithTag("Wire");
-					foreach (GameObject wire in wires)
-					{
-						wire.SetActive(false);
+					wires = GameObject.FindGameObjectsWithTag ("Wire");
+					foreach (GameObject wire in wires) {
+						wire.SetActive (false);
 					}
-					loseImage.SetActive(true);	
+					loseImage.SetActive (true);
+					winImage.SetActive (false);
 					backImage.SetActive(false);
 					// paly the lose song
 					Lose.Play();
@@ -109,7 +108,12 @@ public class MCollisionScript : MonoBehaviour {
 				
 			if (other.gameObject.CompareTag ("EndCube")) {
 				other.gameObject.SetActive (false);
-				winImage.SetActive(true);	
+				winImage.SetActive(true);
+				wires = GameObject.FindGameObjectsWithTag ("Wire");
+				foreach (GameObject wire in wires) {
+					wire.SetActive (false);
+				}
+				loseImage.SetActive (false);
 				backImage.SetActive(false);
 				Handheld.Vibrate ();
 				// paly the win song
