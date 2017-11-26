@@ -79,11 +79,13 @@
      <Compile Include="Assets\Scripts\ChangeMusicVolume.cs" />
      <Compile Include="Assets\Scripts\ClickButton.cs" />
      <Compile Include="Assets\Scripts\CollisionScript.cs" />
+     <Compile Include="Assets\Scripts\HCollisionScript.cs" />
      <Compile Include="Assets\Scripts\loadingSign.cs" />
      <Compile Include="Assets\Scripts\MCollisionScript.cs" />
      <Compile Include="Assets\Scripts\MSceneChange.cs" />
      <Compile Include="Assets\Scripts\MSelfRotate.cs" />
      <Compile Include="Assets\Scripts\MStarRotate.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\SceneChange.cs" />
      <Compile Include="Assets\Scripts\starsmoving.cs" />
      <Compile Include="Assets\Scripts\starsmoving1.cs" />

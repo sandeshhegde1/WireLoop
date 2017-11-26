@@ -19,6 +19,8 @@
 		</type>
 		<type fullname="showhideloading">
 			<method name="show"/>
+			<method name="show"/>
+			<method name="show"/>
 		</type>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
@@ -30,13 +32,15 @@
 			<method name="MarkerClicked"/>
 			<method name="StartClicked"/>
 			<method name="MarkerlessClicked"/>
-			<method name="MarkerClicked"/>
 			<method name="StartClicked"/>
+			<method name="MarkerClicked"/>
 			<method name="MarkerlessClicked"/>
 			<method name="MarkerClicked"/>
 			<method name="StartClicked"/>
 		</type>
 		<type fullname="SceneChange">
+			<method name="changeScene"/>
+			<method name="changeScene"/>
 			<method name="changeScene"/>
 			<method name="changeScene"/>
 			<method name="changeScene"/>

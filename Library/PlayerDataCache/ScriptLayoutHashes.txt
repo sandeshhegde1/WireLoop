@@ -1,6 +1,5 @@
 iOS
 3ebfa02f3dc516516b6e03cc4efc00f2 Assembly-CSharp.dll:.starsmoving2
-dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 9f07aaefd0255462bb6e4f9e5da6b2d4 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -125,6 +124,7 @@ e2cfd966cb1bcedac539edbb3b49f454 Assembly-CSharp.dll:.ChangeMusicVolume
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneChange
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ActivatedScript
 fe451ee8e9b8cbf8e98b94172c1479df Assembly-CSharp.dll:.MStarRotate
+3ebfa02f3dc516516b6e03cc4efc00f2 Assembly-CSharp.dll:.loadingSign
 94120d9fcbeb713c52895502fd6cd0b1 Assembly-CSharp.dll:.MCollisionScript
 94120d9fcbeb713c52895502fd6cd0b1 Assembly-CSharp.dll:.CollisionScript
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
@@ -163,4 +163,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 dd9ce41bb6365b5a3389c7996c38da0b Assembly-CSharp.dll:Kudan.AR.MarkerTransformDriver
 ba1df6d74014d7c80efbe7170d67c6c1 Assembly-CSharp.dll:Kudan.AR.Samples.SampleScripting
 02fa9d2c5a7ec5331d88fb55c1bf881b Assembly-CSharp.dll:Kudan.AR.TrackingMethodMarker
-3ebfa02f3dc516516b6e03cc4efc00f2 Assembly-CSharp.dll:.loadingSign
+109c872fb4440cc84bbd4d96d82b2706 Assembly-CSharp.dll:.HCollisionScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NewBehaviourScript
+dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker

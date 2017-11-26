@@ -22,11 +22,13 @@
 <type fullname="ChangeMusicVolume" preserve="all"/>
 <type fullname="ClickButton" preserve="all"/>
 <type fullname="CollisionScript" preserve="all"/>
+<type fullname="HCollisionScript" preserve="all"/>
 <type fullname="loadingSign" preserve="all"/>
 <type fullname="MCollisionScript" preserve="all"/>
 <type fullname="MSceneChange" preserve="all"/>
 <type fullname="MSelfRotate" preserve="all"/>
 <type fullname="MStarRotate" preserve="all"/>
+<type fullname="NewBehaviourScript" preserve="all"/>
 <type fullname="SceneChange" preserve="all"/>
 <type fullname="starsmoving" preserve="all"/>
 <type fullname="starsmoving1" preserve="all"/>
